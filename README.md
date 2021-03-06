@@ -1,16 +1,16 @@
-# EngineDS0001
+# EngineRevDS0001
 
 Generating synthetic Engine sounds
 
 # User instructions
 
-  >> git clone https://github.com/lonce/EngineDS0001.git
+  >> git clone https://github.com/lonce/EngineRevDS0001.git
 
-  >> cd EngineDS0001/
+  >> cd EngineRevDS0001/
 
-  >> conda create -n EngineDS0001 python=3.8 ipykernel
+  >> conda create -n EngineRevDS0001 python=3.8 ipykernel
 
-  >> conda activate EngineDS0001
+  >> conda activate EngineRevDS0001
 
   >> python3 -m pip install -r requirements.txt --src '.'
 
@@ -18,7 +18,7 @@ Generating synthetic Engine sounds
 
 >> pip install jupyter
 
->> python3 -m ipykernel install --user --name EngineDS0001
+>> python3 -m ipykernel install --user --name EngineRevDS0001
 
 >> jupyter notebook
 
@@ -30,7 +30,7 @@ Generating synthetic Engine sounds
 
 # Config File descriptions
 
->> "soundname": "EngineDS0001",
+>> "soundname": "EngineRevDS0001",
 
 >> "samplerate": 16000,
 
@@ -38,7 +38,7 @@ Generating synthetic Engine sounds
 
 >> "soundDuration": 4,
 
->> "outPath": "EngineDS0001_dataset",
+>> "outPath": "EngineRevDS0001_dataset",
 
 >> "recordFormat": The format of the output parameter records  0 (*paramManager*), 1 (*SonyGan*) and 2 (*Tfrecords*)
 
